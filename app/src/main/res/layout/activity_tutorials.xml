@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/st2">
+
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background=" @android:color/transparent"
+                    android:onClick="intro"
+                    android:text="Android Introduction"
+                    android:textColor="#FDF8FD"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:background=" @android:color/transparent"
+                    android:fontFamily="sans-serif-black"
+                   android:onClick="history"
+                    android:text="ANDROID HISTORY AND VERSION"
+                    android:textColor="#FDF8FD"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="ANDROID VERSION SYSMBOL"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="version"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="WHY ANDROID ?"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="why"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Android layout"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                   android:onClick="layout"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Android lifecycle"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="lifecycle"
+                    android:layout_height="62dp"/>
+                <Button
+                    android:id="@+id/button7"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Ui Widgets"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="ui"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Resources"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="resources"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="services"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="servies"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button10"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Hello World example"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="eg"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Toast"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="to"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Event Handling"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:onClick="eh"
+                    android:layout_height="62dp"/>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:textColor="#FDF8FD"
+                    android:background=" @android:color/transparent"
+                    android:text="Styles and themes"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                   android:onClick="ss"
+                    android:layout_height="62dp"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
